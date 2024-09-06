@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* Aplicar un margen general en toda la aplicación y definir la fuente base */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.app-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+/* Estilo general para enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Estilo para títulos y encabezados */
+h1, h2 {
+  color: #2c3e50;
+  font-weight: bold;
 }
+
+/* Ajustes para las páginas */
+section {
+  padding: 20px;
+  text-align: center;
+}
+
