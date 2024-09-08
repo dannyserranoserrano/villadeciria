@@ -7,6 +7,7 @@ import Galeria from './pages/Galeria'; // Página de la galería de imágenes
 import About from './pages/About';  // Página "Acerca de"
 import Contact from './pages/Contact'; // Página de contacto
 import './App.css';  // Estilos globales
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
